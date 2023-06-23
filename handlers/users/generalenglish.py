@@ -12,9 +12,9 @@ async def generalenglish(message: types.Message):
     text = ("<b>Founders Language Schoolga</b>"
             "✅ Yordamchi ustoz biriktiriladi\n"
             "✅ Darslar 2 soatdan\n\n"
-            "✅ Har bir kurs 2 oy davom etadi"
+            "✅ Har bir kurs 2 oy davom etadi\n"
             "📹 Agarda <b>video formatda</b> ko'rishni istasangiz 1 <b>raqamini yuboring</b>\n\n"
-            "😊 Bizning kurslar barchaga, tezroq <b>IELTS</b> dan yaxshi natija va universitetga talab qilinayotgan ball ni qo'lga kiritishga yordam beradi"
+            "😊 Bizning kurslar barchaga, tezroq <b>IELTS</b> dan yaxshi natija va universitetga talab qilinayotgan ball ni qo'lga kiritishga yordam beradi\n\n"
             )
     
     await message.answer(text)
