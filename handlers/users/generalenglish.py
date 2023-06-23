@@ -17,7 +17,7 @@ async def generalenglish(message: types.Message):
             "✅ Shaxsiy kabinetingizga ega bo'lasiz\n"
             "✅ Audio lug'at\n"
             "✅ Qo'shimcha ikkinchi ustoz\n"
-            "✅ Darslar davomiyligi 2 soatdan\n"
+            "✅ Darslar davomiyligi 2 soatdan\n\n"
             "😊 Bizning kurslarimiz sizning yorqin kelajagingiz uchun <b>imkoniyatlar eshigini</b> ochishga yordam beradi.\n\n")
     
     await message.answer(text)
