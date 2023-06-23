@@ -12,6 +12,5 @@ async def set_default_commands(dp):
             types.BotCommand("kidsenglish", "KIDS English"),
             types.BotCommand("generalenglish", "General English"),
             types.BotCommand("register", "Registratsiyadan o'tish"),
-            types.BotCommand("send_video", "send video")
         ]
     )
