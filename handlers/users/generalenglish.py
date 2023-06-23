@@ -9,12 +9,16 @@ from handlers.users.help import bot_help
 
 @dp.message_handler(commands='generalenglish', state=None)
 async def generalenglish(message: types.Message):
-    text = ("<b>Founders Language Schoolga</b>"
-            "✅ Yordamchi ustoz biriktiriladi\n"
-            "✅ Darslar 2 soatdan\n\n"
-            "✅ Har bir kurs 2 oy davom etadi"
-            "📹 Agarda <b>video formatda</b> ko'rishni istasangiz 1 <b>raqamini yuboring</b>\n\n"
-            "😊 Bizning kurslar barchaga, tezroq <b>IELTS</b> dan yaxshi natija va universitetga talab qilinayotgan ball ni qo'lga kiritishga yordam beradi"
+    text = ("Founders Language Schoolga xush kelibsiz!\n\n"
+            "📹 Agarda video formatda ko'rishni istasangiz xohlagan so'z, yuboring.\n\n"
+            "Bizning General English kurs afzalliklarimizni sanab o'tamiz:\n"
+            "✅ Guruhda 10 ± ta o'quvchi bo'ladi\n"
+            "✅ Oxford Press nashriyotlari\n"
+            "✅ Shaxsiy kabinetingizga ega bo'lasiz\n"
+            "✅ Audio lug'at\n"
+            "✅ Qo'shimcha ikkinchi ustoz\n"
+            "✅ Darslar davomiyligi 2 soatdan\n"
+            "😊 Bizning kurslarimiz sizning yorqin kelajagingiz uchun imkoniyatlar eshigini ochishga yordam beradi."
             )
     
     await message.answer(text)
