@@ -11,6 +11,6 @@ async def set_default_commands(dp):
             types.BotCommand("ieltsturbo", "IELTS Turbo"),
             types.BotCommand("kidsenglish", "KIDS English"),
             types.BotCommand("generalenglish", "General English"),
-            types.BotCommand("register", "Registratsiyadan o'tish"),3
+            types.BotCommand("register", "Registratsiyadan o'tish"),
         ]
     )
