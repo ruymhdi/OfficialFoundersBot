@@ -9,9 +9,8 @@ from handlers.users.help import bot_help
 
 @dp.message_handler(commands='generalenglish', state=None)
 async def generalenglish(message: types.Message):
-<<<<<<< HEAD
-    text = ("Founders Language Schoolga xush kelibsiz!\n\n"
-            "📹 Agarda video formatda ko'rishni istasangiz xohlagan so'z, yuboring.\n\n"
+    text = ("<b>Founders Language Schoolga</b> xush kelibsiz!\n\n"
+            "📹 Agarda <b>video</b> formatda ko'rishni istasangiz xohlagan so'z, yuboring.\n\n"
             "Bizning General English kurs afzalliklarimizni sanab o'tamiz:\n"
             "✅ Guruhda 10 ± ta o'quvchi bo'ladi\n"
             "✅ Oxford Press nashriyotlari\n"
@@ -19,16 +18,7 @@ async def generalenglish(message: types.Message):
             "✅ Audio lug'at\n"
             "✅ Qo'shimcha ikkinchi ustoz\n"
             "✅ Darslar davomiyligi 2 soatdan\n"
-            "😊 Bizning kurslarimiz sizning yorqin kelajagingiz uchun imkoniyatlar eshigini ochishga yordam beradi."
-=======
-    text = ("<b>Founders Language Schoolga</b>"
-            "✅ Yordamchi ustoz biriktiriladi\n"
-            "✅ Darslar 2 soatdan\n\n"
-            "✅ Har bir kurs 2 oy davom etadi\n"
-            "📹 Agarda <b>video formatda</b> ko'rishni istasangiz 1 <b>raqamini yuboring</b>\n\n"
-            "😊 Bizning kurslar barchaga, tezroq <b>IELTS</b> dan yaxshi natija va universitetga talab qilinayotgan ball ni qo'lga kiritishga yordam beradi\n\n"
->>>>>>> 2c3047ec6ccbed1a3d5312d5ad3a43866b02365f
-            )
+            "😊 Bizning kurslarimiz sizning yorqin kelajagingiz uchun <b>imkoniyatlar eshigini</b> ochishga yordam beradi.")
     
     await message.answer(text)
     await Medias.generalvideo.set()
