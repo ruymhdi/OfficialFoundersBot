@@ -18,7 +18,7 @@ async def generalenglish(message: types.Message):
             "✅ Audio lug'at\n"
             "✅ Qo'shimcha ikkinchi ustoz\n"
             "✅ Darslar davomiyligi 2 soatdan\n"
-            "😊 Bizning kurslarimiz sizning yorqin kelajagingiz uchun <b>imkoniyatlar eshigini</b> ochishga yordam beradi.")
+            "😊 Bizning kurslarimiz sizning yorqin kelajagingiz uchun <b>imkoniyatlar eshigini</b> ochishga yordam beradi.\n\n")
     
     await message.answer(text)
     await Medias.generalvideo.set()
