@@ -35,7 +35,7 @@ async def process_contact(message: types.Message, state: FSMContext):
     state_data = await state.get_data()
     name = state_data['name']
 
-    await bot.send_message(chat_id=message.chat.id, text="Sizning kontaktingiz qabul qilindi.",
+    await bot.send_message(chat_id=message.chat.id, text="Sizning kontaktingiz qabul qilindi.\n\nO'quv markazimiz kurslari, joylashgan joyi bo'yicha to'liq ma'lumot olish uchun iltimos /help buyrug'ini bering",
                            reply_markup=ReplyKeyboardRemove())
 
     xabar = f"<b>Foydalanuchi ismi</b>: {name}\n" \

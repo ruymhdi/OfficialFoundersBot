@@ -24,7 +24,7 @@ async def kidsenglish(message: types.Message):
 @dp.message_handler(state=Medias.kidsvideo)
 async def send_video(message: types.Message, state: FSMContext):
 
-    video1 = 'BAACAgIAAxkBAAJCd2SVYgL7ZS_X7dGYdIQG9hU9X_k0AALBMgACj4uxSJFZhpie4jJuLwQ'  # video ID
+    video1 = 'BAACAgIAAxkBAAJDymSW0kFGBXO8XQoH2fzDfFJUKCB0AAKrLwAC4IG5SPFTkwABHzE-Yi8E'  # video ID
 
     await bot.send_video(chat_id=message.chat.id, video=video1)
     await state.finish()

@@ -24,7 +24,7 @@ async def ieltsturbo(message: types.Message):
 @dp.message_handler(state=Medias.iltesturbo)
 async def send_video(message: types.Message, state: FSMContext):
     
-    video1 = 'BAACAgIAAxkBAAJCsGSVgEhSGW_qRDnH12cm-8kizwHvAAL1NAACj4uxSKv4sVZMe2pYLwQ' #videoid
+    video1 = 'BAACAgIAAxkBAAJDx2SW0VMsyd1M2UDV54_f_BJaNQGrAAKkLwAC4IG5SIg3ihPC_An9LwQ' #videoid
 
     await bot.send_video(chat_id=message.chat.id, video=video1)
     await state.finish()

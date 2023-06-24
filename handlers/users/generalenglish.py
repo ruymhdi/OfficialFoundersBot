@@ -26,7 +26,8 @@ async def generalenglish(message: types.Message):
 @dp.message_handler(state=Medias.generalvideo)
 async def send_video(message: types.Message, state: FSMContext):
 
-    video1 = 'BAACAgIAAxkBAAJCe2SVYoJsQfGSwgQ455lT0qEgjs8mAALHMgACj4uxSAxlwxNwElkzLwQ' #videoid
+    video1 = 'BAACAgIAAxkBAAJDyWSW0i3IwHhsXV2_y_ermKVG2zPHAAKpLwAC4IG5SI_DTJQ4v0QHLwQ' #videoid
 
     await bot.send_video(chat_id=message.chat.id, video=video1)
     await state.finish()
+      
