@@ -24,7 +24,7 @@ async def generalenglish(message: types.Message):
 
 @dp.message_handler(commands='generalvideo')
 async def ieltsturbovideo(message: types.Message):
-    video1 = 'BAACAgIAAxkBAAJDyWSW0i3IwHhsXV2_y_ermKVG2zPHAAKpLwAC4IG5SI_DTJQ4v0QHLwQ'
+    video1 = 'BAACAgIAAxkBAAJEXmSYfg-goFTVdFGXGwJ2XJ1ajmsTAAKEMQAC4IHJSGybJSUfqUoLLwQ'
 
     await bot.send_video(chat_id=message.chat.id, video=video1)
 

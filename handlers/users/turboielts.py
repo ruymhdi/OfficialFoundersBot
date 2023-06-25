@@ -23,7 +23,7 @@ async def ieltsturbo(message: types.Message):
 
 @dp.message_handler(commands='ieltsvideo')
 async def ieltsturbovideo(message: types.Message):
-    video1 = 'BAACAgIAAxkBAAJDx2SW0VMsyd1M2UDV54_f_BJaNQGrAAKkLwAC4IG5SIg3ihPC_An9LwQ'
+    video1 = 'BAACAgIAAxkBAAJEWGSYeZhEhGkjULwlAAGpq3lhB4gZXwACHzEAAuCByUjTDzOikKkSQy8E'
 
     await bot.send_video(chat_id=message.chat.id, video=video1)
 
