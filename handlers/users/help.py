@@ -12,10 +12,13 @@ async def bot_help(message: types.Message):
             "/help - Shu habarni ko'rsatadi\n\n<b>Biz haqimizda:</b>",
             "/aboutus - Biz haqimizda:\n"
             "/aboutadresses - Bizning manzillar\n\n"
-            "<b>Bizning kurslar</b>\n"
+            "<b>Bizning kurslar:</b>\n"
             "/ieltsturbo - IELTS Turbo\n"
+            "/ieltsvideo - IELTS Turbo <b>video</b>\n\n"
             "/generalenglish - General English\n"
-            "/kidsenglish - KIDS English\n\n"
+            "/generalvideo - General English <b>video</b>\n\n"
+            "/kidsenglish - KIDS English\n"
+            "/kidsvideo - KIDS English <b>video</b>\n\n"
             "<b>Regestratiya:</b>\n"
             "/register - Registratsiydan o'tish")
     
