@@ -9,7 +9,6 @@ from handlers.users.help import bot_help
 @dp.message_handler(commands='generalenglish')
 async def generalenglish(message: types.Message):
     text = ("<b>Founders Language Schoolga</b> xush kelibsiz!\n\n"
-            "📹 Agarda quyida keltirilgan barcha ma'lumotni <b>video</b> formatda ko'rishni xohlasangiz /generalvideo buyrug'ini bering\n\n"
             "Bizning General English kurs afzalliklarimizni sanab o'tamiz:\n"
             "✅ Guruhda 10 ± ta o'quvchi bo'ladi\n"
             "✅ Oxford Press nashriyotlari\n"

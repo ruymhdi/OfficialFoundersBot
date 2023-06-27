@@ -6,7 +6,6 @@ from loader import dp, bot
 @dp.message_handler(commands='kidsenglish')
 async def kidsenglish(message: types.Message):
     text = ("<b>Founders Language Schoolga</b> xush kelibsiz!\n\n"
-            "📹 Agarda quyida keltirilgan barcha ma'lumotni <b>video</b> formatda ko'rishni xohlasangiz /kidsvideo buyrug'ini bering\n\n"
             "KIDS English kurslari ning afzalliklarini sanab o'tamiz:\n\n"
             "✅ Guruhda 10 ± ta o'quvchi bo'ladi\n"
             "✅ KIDS guruhlari har bir darajada 4 oy va darslar davomiyligi 2 soatdan\n"
@@ -22,7 +21,7 @@ async def kidsenglish(message: types.Message):
 
 @dp.message_handler(commands='kidsvideo')
 async def ieltsturbovideo(message: types.Message):
-    video1 = 'BAACAgIAAxkBAAJEWmSYfHXvHu1xa0Z0acNVC1FXG2iTAAJcMQAC4IHJSNP43n9PN2OSLwQ'
+    video1 = 'BAACAgIAAxkBAAJEjGSbP51IlsKJQkr_YgPSlwrvdXs1AALvOgACy5HZSG0x_0jsFRmQLwQ'
 
     await bot.send_video(chat_id=message.chat.id, video=video1)
 

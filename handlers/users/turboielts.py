@@ -7,7 +7,6 @@ from loader import dp, bot
 @dp.message_handler(commands='ieltsturbo')
 async def ieltsturbo(message: types.Message):
     text = ("<b>Founders Language Schoolga</b> xush kelibsiz!\n\n"
-            "📹 Agarda quyida keltirilgan barcha ma'lumotni <b>video</b> formatda ko'rishni xohlasangiz /ieltsvideo buyrug'ini bering.\n\n"
             "🔥 Bizning IELTS Turbo kursimiz 2 oydan 3 oygacha davom etadi\n\n"
             "IELTS Turbo kurslarimiz afzalliklari quyidagilar:\n\n"
             "✅ Guruhda 10 ± ta o'quvchi bo'ladi\n"
