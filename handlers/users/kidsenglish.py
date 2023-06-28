@@ -21,7 +21,7 @@ async def kidsenglish(message: types.Message):
 
 @dp.message_handler(commands='kidsvideo')
 async def ieltsturbovideo(message: types.Message):
-    video1 = 'BAACAgIAAxkBAAJEjGSbP51IlsKJQkr_YgPSlwrvdXs1AALvOgACy5HZSG0x_0jsFRmQLwQ'
+    video1 = 'BAACAgIAAxkBAAJEs2ScQyxu_DfCeP7lQ3uNnax3BtWEAAIZLgACW3PhSIpLKslWuHi3LwQ'
 
     await bot.send_video(chat_id=message.chat.id, video=video1)
 
