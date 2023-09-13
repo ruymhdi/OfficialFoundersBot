@@ -7,5 +7,6 @@ from . import generalenglish
 from . import location
 from . import turboielts
 from . import start
+from . import suggest
 from . import docs_handlers
 from . import echo
