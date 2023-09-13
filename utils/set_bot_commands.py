@@ -14,7 +14,6 @@ async def set_default_commands(dp):
             types.BotCommand("register", "Registratsiyadan o'tish"),
             types.BotCommand("generalvideo", "General English video formatda"),
             types.BotCommand("ieltsvideo", "IELTS turbo video formatda"),
-            types.BotCommand("kidsvideo", "KIDS English video formatda"),
-            types.BotCommand("suggest", "Taklif va shikoyatni yozish")
+            types.BotCommand("kidsvideo", "KIDS English video formatda")
         ]
     )
