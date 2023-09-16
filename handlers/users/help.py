@@ -3,7 +3,6 @@ from aiogram.dispatcher.filters.builtin import CommandHelp
 
 from loader import dp
 
-
 @dp.message_handler(CommandHelp())
 async def bot_help(message: types.Message):
     text = ("@founders_school_uz let's grow with us!\n",
@@ -20,6 +19,8 @@ async def bot_help(message: types.Message):
             "/kidsenglish - KIDS English\n"
             "/kidsvideo - KIDS English <b>video</b>\n\n"
             "<b>Regestratiya:</b>\n"
-            "/register - Registratsiydan o'tish")
-    
+            "/register - Registratsiydan o'tish\n",
+            "<b>Sifat nazorati:</b>\n"
+            "/suggest - Taklif va shikoyat uchun")
+
     await message.answer("\n".join(text))
