@@ -20,6 +20,27 @@ async def generalenglish(message: types.Message):
     
     await message.answer(text)
 
+    text2 = ("@founders_school_uz let's grow with us!\n",
+            "<b>Asosiy:</b>",
+            "/start - Botni ishga tushirish",
+            "/help - Shu habarni ko'rsatadi\n\n<b>Biz haqimizda:</b>",
+            "/aboutus - Biz haqimizda:\n"
+            "/aboutadresses - Bizning manzillar\n\n"
+            "<b>Bizning kurslar:</b>\n"
+            "/ieltsturbo - IELTS Turbo\n"
+            "/ieltsvideo - IELTS Turbo <b>video</b>\n\n"
+            "/generalenglish - General English\n"
+            "/generalvideo - General English <b>video</b>\n\n"
+            "/kidsenglish - KIDS English\n"
+            "/kidsvideo - KIDS English <b>video</b>\n\n"
+            "<b>Regestratiya:</b>\n"
+            "/register - Registratsiydan o'tish\n",
+            "<b>Sifat nazorati:</b>\n"
+            "/suggest - Taklif va shikoyat uchun")
+
+    await message.answer("\n".join(text2))
+
+
 
 @dp.message_handler(commands='generalvideo')
 async def ieltsturbovideo(message: types.Message):
